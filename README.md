@@ -40,10 +40,5 @@ The report gives fault currents on the order of **20 kA at an HTA bus** and **29
 
 - [`docs/methodology.md`](docs/methodology.md) — calculation method, coordination logic, and practical limitations.
 - [`docs/report-map.md`](docs/report-map.md) — guide to the chapters and figures in the complete PDF.
-- `reference/full-report.pdf` — local reference copy only, excluded from Git by `.gitignore` because the PDF includes site-specific network details and figures carried over from a source document.
-
-To review the full report in a private copy of this repository, open `reference/full-report.pdf`. Before publishing that file or its figures, obtain the appropriate permission and review the site-specific data. The Git-tracked files form the portfolio version.
-
-## Français
-
-Étude d'un réseau industriel HTA/BT : calcul des courants de court-circuit par la méthode des impédances, vérification des pouvoirs de coupure/fermeture et analyse de la sélectivité des protections ANSI 50/51. Les résultats ETAP cités proviennent du document de référence ; le modèle ETAP n'est pas fourni. Le rapport complet reste dans `reference/` et n'est pas suivi par Git.
+- `full-report.pdf`
+- 
